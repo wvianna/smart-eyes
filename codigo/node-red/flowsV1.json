@@ -1,0 +1,1151 @@
+[
+    {
+        "id": "b0c4f0c2dbfda1d4",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "72ca4441.7a7f4c",
+        "type": "subflow",
+        "name": "Stepper Motor",
+        "info": "",
+        "in": [
+            {
+                "x": 160,
+                "y": 100,
+                "wires": [
+                    {
+                        "id": "64126e98.974f4"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 1044,
+                "y": 79,
+                "wires": [
+                    {
+                        "id": "e31da647.d44e48",
+                        "port": 0
+                    }
+                ]
+            },
+            {
+                "x": 1041,
+                "y": 137,
+                "wires": [
+                    {
+                        "id": "e31da647.d44e48",
+                        "port": 1
+                    }
+                ]
+            },
+            {
+                "x": 1042,
+                "y": 189,
+                "wires": [
+                    {
+                        "id": "e31da647.d44e48",
+                        "port": 2
+                    }
+                ]
+            },
+            {
+                "x": 1044,
+                "y": 242,
+                "wires": [
+                    {
+                        "id": "e31da647.d44e48",
+                        "port": 3
+                    }
+                ]
+            },
+            {
+                "x": 1025,
+                "y": 379,
+                "wires": [
+                    {
+                        "id": "e31da647.d44e48",
+                        "port": 4
+                    },
+                    {
+                        "id": "731e9079.e7f44",
+                        "port": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "b37c9c5d7db8e6b9",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "MONITORAÇÃO",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "26a051a1b3312fa8",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "78d217b4989b1ee0",
+        "type": "ui_group",
+        "name": "Mapa",
+        "tab": "26a051a1b3312fa8",
+        "order": 2,
+        "disp": true,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b30bca417423f0d8",
+        "type": "ui_group",
+        "name": "Painel",
+        "tab": "26a051a1b3312fa8",
+        "order": 3,
+        "disp": true,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "45db454cbda1b0bf",
+        "type": "ui_group",
+        "name": "Setup",
+        "tab": "26a051a1b3312fa8",
+        "order": 1,
+        "disp": true,
+        "width": "3",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e6a516227f6dbea9",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "127.0.0.1",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "420a8ca980e697d3",
+        "type": "ui_spacer",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "spacer",
+        "group": "b30bca417423f0d8",
+        "order": 4,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "61331ef9afe26c7a",
+        "type": "ui_spacer",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "spacer",
+        "group": "b30bca417423f0d8",
+        "order": 5,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "a8f32a1359429c98",
+        "type": "ui_spacer",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "spacer",
+        "group": "b30bca417423f0d8",
+        "order": 9,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "f6c83cc22c27e403",
+        "type": "ui_spacer",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "spacer",
+        "group": "b30bca417423f0d8",
+        "order": 10,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "40e6a35056f72d0f",
+        "type": "ui_spacer",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "spacer",
+        "group": "b30bca417423f0d8",
+        "order": 11,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "36b6d8c3c5855e65",
+        "type": "ui_spacer",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "spacer",
+        "group": "b30bca417423f0d8",
+        "order": 12,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "b5e49ac03f31d8e3",
+        "type": "function",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "grid true",
+        "func": "msg.payload = { command : { grid : {\n    showgrid: true,\n    opt: { showLabel:true, dashArray:[5, 5], fontColor:\"#900\" }}}};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 380,
+        "wires": [
+            [
+                "f83930ff.b21488"
+            ]
+        ]
+    },
+    {
+        "id": "ae5725935fbf29ea",
+        "type": "function",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "grid false",
+        "func": "msg.payload = { command : { grid : {\n    showgrid: false,\n    opt: { showLabel:true, dashArray:[5, 5], fontColor:\"#900\" }}}};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 420,
+        "wires": [
+            [
+                "f83930ff.b21488"
+            ]
+        ]
+    },
+    {
+        "id": "677ba1a9c880fdb9",
+        "type": "function",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "",
+        "func": "/*var sensor = {\n    name:\"Paraíba do Sul\", \n    lat:-21.62018027266234, \n    lon:-41.031522464095616,\n    icon:\"arrow\",\n    iconColor:\"red\",\n    extrainfo:\"sensor Paraíba do Sul - Foz\",\n    label: msg.payload.toString() + \" m\"};*/\nmsg.payload.lat = parseFloat(msg.payload.lat);\nmsg.payload.lon = parseFloat(msg.payload.lon);\nmsg.payload.label = msg.payload.nivel;\nmsg.payload.icon =\"arrow\";\nmsg.payload.iconColor = \"red\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 100,
+        "wires": [
+            [
+                "2ff38a4788c8804d",
+                "e8d031ef2a0aa5ec"
+            ]
+        ]
+    },
+    {
+        "id": "af000cb19269ed55",
+        "type": "debug",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 950,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "fac6383834f8c9fe",
+        "type": "function",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "",
+        "func": "var sensor = {name:\"Lagoa de Cima\", \n    lat:-21.77223501844755, lon: -41.50626403631361, \n    icon:\"arrow\",\n    iconColor:\"blue\",\n    extrainfo:\"sensor Lagoa de Cima\",\n    label: msg.payload.toString() + \" m\"};\nmsg.payload = sensor;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 200,
+        "wires": [
+            [
+                "2ff38a4788c8804d"
+            ]
+        ]
+    },
+    {
+        "id": "115e0fb868ceea2d",
+        "type": "function",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "",
+        "func": "var sensor = {name:\"Lagoa Feia\", \n    lat:-22.00637352763747, lon:-41.236759876892414, \n    icon:\"arrow\",\n    iconColor:\"green\",\n    extrainfo:\"sensor Lagoa Feia\",\n    label: msg.payload.toString() + \" m\"};\nmsg.payload = sensor;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 280,
+        "wires": [
+            [
+                "2ff38a4788c8804d"
+            ]
+        ]
+    },
+    {
+        "id": "2ff38a4788c8804d",
+        "type": "join",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "3",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 850,
+        "y": 180,
+        "wires": [
+            [
+                "f83930ff.b21488",
+                "af000cb19269ed55"
+            ]
+        ]
+    },
+    {
+        "id": "bb802734ce2ba1a8",
+        "type": "function",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "random 0 ~ 10",
+        "func": "msg.payload =  Math.random() * 10;\nmsg.payload = parseFloat(msg.payload.toFixed(1));\n\nvar sensor1=global.get('sensor1') || 0;\nsensor1 = parseFloat(msg.payload);\nglobal.set('sensor1',sensor1);\nmsg.topic = \"Paraíba\";\nmsg.payload = sensor1;\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "873f526f93173bbc",
+        "type": "function",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "random 0 ~ 10",
+        "func": "msg.payload =  Math.random() * 10;\nmsg.payload = parseFloat(msg.payload.toFixed(1));\n\nvar sensor2=global.get('sensor2') || 0;\nsensor2 = parseFloat(msg.payload);\nglobal.set('sensor2',sensor2);\nmsg.topic = \"Cima\";\nmsg.payload = sensor2;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 200,
+        "wires": [
+            [
+                "13ddaf3833e0fab7",
+                "fac6383834f8c9fe",
+                "175b4f4254f37457"
+            ]
+        ]
+    },
+    {
+        "id": "9c9944b73a047dc5",
+        "type": "function",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "random 0 ~ 10",
+        "func": "msg.payload =  Math.random() * 10;\nmsg.payload = parseFloat(msg.payload.toFixed(1));\n\nvar sensor3=global.get('sensor3') || 0;\nsensor3 = parseFloat(msg.payload);\nglobal.set('sensor3',sensor3);\nmsg.topic = \"Feia\";\nmsg.payload = sensor3;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 300,
+        "wires": [
+            [
+                "a71b4db69b7f2e51",
+                "115e0fb868ceea2d",
+                "593b42023442e62f"
+            ]
+        ]
+    },
+    {
+        "id": "8e5bd4f346a484d3",
+        "type": "inject",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 90,
+        "y": 200,
+        "wires": [
+            [
+                "bb802734ce2ba1a8",
+                "873f526f93173bbc",
+                "9c9944b73a047dc5",
+                "dec2c6d87af18a1c"
+            ]
+        ]
+    },
+    {
+        "id": "731e9079.e7f44",
+        "type": "function",
+        "z": "72ca4441.7a7f4c",
+        "name": "Toggle Direction",
+        "func": "var direction = flow.get('direction')||0;\n\nif (direction === -1)\n{\n    direction = 1;\n}\nelse {\n    direction = -1;\n}\nflow.set('direction',direction);\nmsg.payload = direction;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 431,
+        "y": 267,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "64126e98.974f4",
+        "type": "switch",
+        "z": "72ca4441.7a7f4c",
+        "name": "Step or Direction",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Step",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Direction",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "outputs": 2,
+        "x": 291,
+        "y": 171,
+        "wires": [
+            [
+                "29d6cedd.14d572"
+            ],
+            [
+                "731e9079.e7f44"
+            ]
+        ]
+    },
+    {
+        "id": "a4d41d68.0cfc",
+        "type": "comment",
+        "z": "72ca4441.7a7f4c",
+        "name": "Flow Variables",
+        "info": "* Direction\n* Sequence\n* SequenceIndex",
+        "x": 279,
+        "y": 42,
+        "wires": []
+    },
+    {
+        "id": "e31da647.d44e48",
+        "type": "function",
+        "z": "72ca4441.7a7f4c",
+        "name": "Sequence Generator",
+        "func": "var seqindex = context.get('seqindex')||0;\nvar sequence = [ [1,0,0,0],[1,1,0,0],[0,1,0,0],[0,1,1,0],[0,0,1,0],[0,0,1,1],[0,0,0,1],[1,0,0,1]]\nvar direction = flow.get('direction');\n\nseqindex = (seqindex % (sequence.length));\nif (seqindex == -1) {seqindex = sequence.length-1;}\n\nmsg.payload = sequence[seqindex];\nmsg.seqindex = seqindex;\nmsg.direction = direction;\n\ncontext.set('seqindex',seqindex+direction);\n\nnode.status({fill:\"green\",shape:\"dot\",text:\"Step\"});\nnode.status({});\n\nreturn GenerateOutput(seqindex);\n\nfunction GenerateOutput(index) {\n    return [ NewMessage(sequence[index][0]), NewMessage(sequence[index][1]),NewMessage(sequence[index][2]),NewMessage(sequence[index][3]), msg  ];\n}\n\nfunction NewMessage(val) {\n    return { payload:val };\n}",
+        "outputs": "5",
+        "noerr": 0,
+        "x": 720,
+        "y": 174,
+        "wires": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "29d6cedd.14d572",
+        "type": "function",
+        "z": "72ca4441.7a7f4c",
+        "name": "Multistep",
+        "func": "var outputMsgs = [];\nvar steps = msg.payload;\nfor (var count = 0; count < steps; count++) { \n    outputMsgs.push({payload:1});\n}\nreturn [ outputMsgs ];",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 434,
+        "y": 90,
+        "wires": [
+            [
+                "bc9d4aec.eff0e8"
+            ]
+        ]
+    },
+    {
+        "id": "bc9d4aec.eff0e8",
+        "type": "delay",
+        "z": "72ca4441.7a7f4c",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "2",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 615,
+        "y": 76,
+        "wires": [
+            [
+                "e31da647.d44e48"
+            ]
+        ]
+    },
+    {
+        "id": "dec2c6d87af18a1c",
+        "type": "function",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "get global sensores",
+        "func": "var msg1 = {};\nvar msg2 = {};\nvar msg3 = {};\nvar sensor1=global.get('sensor1') || 0;\nvar sensor2=global.get('sensor2') || 0;\nvar sensor3=global.get('sensor3') || 0;\n\nmsg1.payload = sensor1;\nmsg1.topic = 'Paraíba';\n\nmsg2.payload = sensor2;\nmsg2.topic = 'Cima';\n\nmsg3.payload = sensor3;\nmsg3.topic = 'Feia';\n\n\nnode.send([[msg1,msg2,msg3]]);",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 540,
+        "wires": [
+            [
+                "5402491c2cfe6c0c"
+            ]
+        ]
+    },
+    {
+        "id": "9c61b9c99f20bde1",
+        "type": "ui_button",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "",
+        "group": "45db454cbda1b0bf",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Grid on",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 460,
+        "y": 380,
+        "wires": [
+            [
+                "b5e49ac03f31d8e3"
+            ]
+        ]
+    },
+    {
+        "id": "06645ec62b87e868",
+        "type": "ui_button",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "",
+        "group": "45db454cbda1b0bf",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Grid off",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 460,
+        "y": 420,
+        "wires": [
+            [
+                "ae5725935fbf29ea"
+            ]
+        ]
+    },
+    {
+        "id": "84f0aeb9edc54bda",
+        "type": "ui_text",
+        "z": "b0c4f0c2dbfda1d4",
+        "group": "b30bca417423f0d8",
+        "order": 1,
+        "width": 2,
+        "height": 2,
+        "name": "",
+        "label": "Paraíba do Sul",
+        "format": "",
+        "layout": "row-spread",
+        "className": "",
+        "x": 480,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "13ddaf3833e0fab7",
+        "type": "ui_text",
+        "z": "b0c4f0c2dbfda1d4",
+        "group": "b30bca417423f0d8",
+        "order": 2,
+        "width": 2,
+        "height": 2,
+        "name": "",
+        "label": "Lagoa de Cima",
+        "format": "",
+        "layout": "row-spread",
+        "className": "",
+        "x": 480,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "a71b4db69b7f2e51",
+        "type": "ui_text",
+        "z": "b0c4f0c2dbfda1d4",
+        "group": "b30bca417423f0d8",
+        "order": 3,
+        "width": 2,
+        "height": 2,
+        "name": "",
+        "label": "Lagoa Feia",
+        "format": "",
+        "layout": "row-spread",
+        "className": "",
+        "x": 470,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "5402491c2cfe6c0c",
+        "type": "ui_chart",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "",
+        "group": "b30bca417423f0d8",
+        "order": 13,
+        "width": 12,
+        "height": 6,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "10",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 730,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f83930ff.b21488",
+        "type": "worldmap",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "",
+        "lat": "-21.8",
+        "lon": "-41.274354253610795",
+        "zoom": "",
+        "layer": "",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "show",
+        "layers": "show",
+        "panit": "true",
+        "panlock": "true",
+        "zoomlock": "false",
+        "hiderightclick": "false",
+        "coords": "deg",
+        "showgrid": "true",
+        "allowFileDrop": "true",
+        "path": "/worldmap",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 820,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "62ae3b3c.8de704",
+        "type": "worldmap in",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "",
+        "path": "/worldmap",
+        "events": "connect",
+        "x": 180,
+        "y": 640,
+        "wires": [
+            [
+                "9f4aa9cae0043a92"
+            ]
+        ]
+    },
+    {
+        "id": "4ed0e7793e2b6b91",
+        "type": "ui_worldmap",
+        "z": "b0c4f0c2dbfda1d4",
+        "group": "78d217b4989b1ee0",
+        "order": 1,
+        "width": 12,
+        "height": 12,
+        "name": "",
+        "lat": "",
+        "lon": "",
+        "zoom": "",
+        "layer": "OSM",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "show",
+        "layers": "show",
+        "panit": "false",
+        "panlock": "true",
+        "zoomlock": "false",
+        "hiderightclick": "false",
+        "coords": "deg",
+        "showgrid": "true",
+        "allowFileDrop": "false",
+        "path": "/worldmap",
+        "x": 960,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "175b4f4254f37457",
+        "type": "ui_level",
+        "z": "b0c4f0c2dbfda1d4",
+        "group": "b30bca417423f0d8",
+        "order": 7,
+        "width": 2,
+        "height": 4,
+        "name": "",
+        "label": "",
+        "colorHi": "#00b33c",
+        "colorWarn": "#bcbf08",
+        "colorNormal": "#ec2d22",
+        "colorOff": "#e4e2e2",
+        "min": 0,
+        "max": "5",
+        "segWarn": "2",
+        "segHigh": "4",
+        "unit": "m",
+        "layout": "sv",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "1",
+        "animations": "off",
+        "shape": "3",
+        "colorschema": "valuedriven",
+        "textoptions": "custom",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "auto",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 450,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "0c1b314ed82b600e",
+        "type": "ui_level",
+        "z": "b0c4f0c2dbfda1d4",
+        "group": "b30bca417423f0d8",
+        "order": 6,
+        "width": 2,
+        "height": 4,
+        "name": "",
+        "label": "",
+        "colorHi": "#00b33c",
+        "colorWarn": "#bcbf08",
+        "colorNormal": "#ec2d22",
+        "colorOff": "#e4e2e2",
+        "min": 0,
+        "max": "5",
+        "segWarn": "3",
+        "segHigh": "4",
+        "unit": "m",
+        "layout": "sv",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "1",
+        "animations": "off",
+        "shape": "3",
+        "colorschema": "valuedriven",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "off",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 450,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "593b42023442e62f",
+        "type": "ui_level",
+        "z": "b0c4f0c2dbfda1d4",
+        "group": "b30bca417423f0d8",
+        "order": 8,
+        "width": 2,
+        "height": 4,
+        "name": "",
+        "label": "",
+        "colorHi": "#00b33c",
+        "colorWarn": "#bcbf08",
+        "colorNormal": "#ec2d22",
+        "colorOff": "#e4e2e2",
+        "min": 0,
+        "max": "10",
+        "segWarn": "3",
+        "segHigh": "5",
+        "unit": "m",
+        "layout": "sv",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "1",
+        "animations": "off",
+        "shape": "3",
+        "colorschema": "valuedriven",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "off",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 450,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "9f4aa9cae0043a92",
+        "type": "function",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "",
+        "func": "if ( msg.payload.action == \"connected\" )\n{\n    msg.payload = msg._sessionip;\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 640,
+        "wires": [
+            [
+                "7ccdd80c6af93195"
+            ]
+        ]
+    },
+    {
+        "id": "7ccdd80c6af93195",
+        "type": "ui_text",
+        "z": "b0c4f0c2dbfda1d4",
+        "group": "45db454cbda1b0bf",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "IP ",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 550,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "90150752a31cbd35",
+        "type": "ui_button",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "",
+        "group": "45db454cbda1b0bf",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Show sensor",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "-",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 630,
+        "y": 320,
+        "wires": [
+            [
+                "fac6383834f8c9fe",
+                "115e0fb868ceea2d"
+            ]
+        ]
+    },
+    {
+        "id": "cc63995ddd4d7f66",
+        "type": "comment",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "mqtt",
+        "info": "localhost\npicg\ni2spicgIFF\n{\"tag\": \"LT100\", \"name\" : \"Paraíba do Sul\",  \"lat\":-21.62018027266234, \"lon\":-41.031522464095616,\"extrainfo\":\"sensor Paraíba do Sul - Foz\", \"nivel\":123, \"pacote\" : 1 }\n\nshell\nmosquitto_pub -h gitlab.picg.iff.edu.br -u picg -P i2spicgIFF -t paraibasul -m {\\\"tag\\\":\\\"LT100\\\"\\,\\\"name\\\":\\\"Paraíba\\ do\\ Sul\\\"\\,\\\"lat\\\":-21.62018027266234\\,\\\"lon\\\":-41.031522464095616\\,\\\"extrainfo\\\":\\\"sensor\\ Paraíba\\ do\\ Sul\\ \\-\\ Foz\\\"\\,\\\"nivel\\\":123\\,\\\"pacote\\\":1}\n",
+        "x": 1150,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "6b89873219da4191",
+        "type": "mqtt in",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "",
+        "topic": "paraibasul",
+        "qos": "1",
+        "datatype": "json",
+        "broker": "e6a516227f6dbea9",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "x": 120,
+        "y": 100,
+        "wires": [
+            [
+                "66c7d49083568bcf",
+                "677ba1a9c880fdb9"
+            ]
+        ]
+    },
+    {
+        "id": "e8d031ef2a0aa5ec",
+        "type": "debug",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 810,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "66c7d49083568bcf",
+        "type": "function",
+        "z": "b0c4f0c2dbfda1d4",
+        "name": "payload = nivel",
+        "func": "msg.payload = msg.payload.nivel;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 60,
+        "wires": [
+            [
+                "84f0aeb9edc54bda",
+                "0c1b314ed82b600e"
+            ]
+        ]
+    }
+]
